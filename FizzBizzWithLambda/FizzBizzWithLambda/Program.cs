@@ -11,7 +11,7 @@ namespace FizzBizzWithLambda
              {
                  if (n%15==0)
                  {
-                     return "FizzBizz"; 
+                     return "FizzBuzz"; 
                  }
                  if (n%3==0)
                  {
@@ -19,7 +19,7 @@ namespace FizzBizzWithLambda
                  }
                  if (n%5==0)
                  {
-                     return "Bizz";
+                     return "Buzz";
                  }
                  return n.ToString();
              };
